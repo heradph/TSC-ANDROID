@@ -1,0 +1,23 @@
+### Add book
+POST http://localhost:4000/addBook
+Content-Type: application/json
+
+{
+  "title": "ngops",
+  "author": "kons"
+}
+
+### Get book
+GET http://localhost:4000/books
+
+### Update book
+PUT http://localhost:4000/editBook/1
+Content-Type: application/json
+
+{
+  "title": "konstanta",
+  "author": "ngops"
+}
+
+### Delete book based on index
+DELETE http://localhost:4000/deleteBook/2
