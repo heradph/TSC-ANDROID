@@ -3,20 +3,20 @@ POST http://localhost:4000/addBook
 Content-Type: application/json
 
 {
-  "title": "ngops",
-  "author": "kons"
+  "title": "Buku 4",
+  "author": "Penulis 4"
 }
 
 ### Get book
-GET http://localhost:4000/books
+GET http://localhost:4000/getBooks
 
 ### Update book
 PUT http://localhost:4000/editBook/1
 Content-Type: application/json
 
 {
-  "title": "konstanta",
-  "author": "ngops"
+  "title": "Buku 4.1",
+  "author": "Penulis 4"
 }
 
 ### Delete book based on index
