@@ -3,22 +3,22 @@ POST http://localhost:4000/addBook
 Content-Type: application/json
 
 {
-  "title": "Buku 4",
-  "author": "Penulis 4",
-  "published": "30 Juni 1968"
+  "title": "Someone You Loved",
+  "writer": "Lewis Capaldi",
+  "published": "09 April 2019"
 }
 
 ### Get book
 GET http://localhost:4000/getBooks
 
 ### Update book
-PUT http://localhost:4000/editBook/1
+PUT http://localhost:4000/editBook/2
 Content-Type: application/json
 
 {
-  "title": "Buku 4.1",
-  "author": "Penulis 4"
+  "title": "You And I",
+  "writer": "One Direction"
 }
 
 ### Delete book based on index
-DELETE http://localhost:4000/deleteBook/1
+DELETE http://localhost:4000/deleteBook/1 
