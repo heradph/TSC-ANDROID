@@ -4,7 +4,8 @@ Content-Type: application/json
 
 {
   "title": "Buku 4",
-  "author": "Penulis 4"
+  "author": "Penulis 4",
+  "published": "30 Juni 1968"
 }
 
 ### Get book
@@ -20,4 +21,4 @@ Content-Type: application/json
 }
 
 ### Delete book based on index
-DELETE http://localhost:4000/deleteBook/2
+DELETE http://localhost:4000/deleteBook/1
